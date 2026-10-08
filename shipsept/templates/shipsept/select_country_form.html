@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<br> 
+<br> 
+<h5>   Ship route plots     </h5>
+<p >  Hello! Choose one of the options below to see the ship route plot of your choice </p>
+<br> 
+    <form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+    </form>
+{% endblock %}
+
