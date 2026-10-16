@@ -24,10 +24,17 @@ A partial map of Finland with one of two routes will appear; these are the parti
 (ii) analysis of the route with respect to detection of s-bends and u-bends is available, currently seen as command line output.
 
 # TO DO:
-1.  Currently analysis of the route with respect to detection of s-bends is shown;
+1. Feature development: 
+(i) Currently analysis of the route with respect to detection of s-bends is displayed in command line output;
    this functionality could be extended to also detect u-bends (the code for that is already created)
-2.  Display the parts of the route that have non-zero "S_BEND" column values on the map.
-3.  Provide a feature for the user to add a trail log file (coordinates of a trail) to be plotted.
+(ii) Display the parts of the route that have non-zero "S_BEND" column values on the map.
+(iii)  Provide a feature for the user to be able to input a trail log file (coordinates of a trail) to be plotted.
+
+2. Software engineering: 
+(i) Create a cloud database for holding input details (ship’s trails) --> currently stored in a csv file
+(ii) Use different service providers’ infrastructure to compare cost-efficiency and ease of use (eg. aws-lambda-functions and google-cloud-functions)
+(iii) Create a micro service that cleans a user-entered csv file and loads it to a cloud database. Another service could then polls the db if new data is loaded -- if yes, the service would inform the website application about it. The user could then choose (click) to process the data from the csv file for displaying a route map.
+
 
 Please write to me at aditya.kelekar@gmail.com for contributions and suggestions. 
 Thank you!
