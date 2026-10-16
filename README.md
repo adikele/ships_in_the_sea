@@ -5,7 +5,12 @@ Hello, this is Aditya, a software engineer and the creator of this project.
 
 The purpose of this project is to develop software to visualize geodata trails. 
 A side aim is to compare different cloud providers's services for hosting this project.
-The project website is currently under construction and will be updated in a week's time.  
+The project website is: https://shipshape-511316.lm.r.appspot.com/shipsept/bargraphs/ 
+The wiki has notes about the algorithms developed for this project.
+
+Currently, the program displays the route between Helsinki and Talinn based on open-source ship data.
+Detection of s-bends and u-bends along the routes is also available, displayed as command line output by running this program locally.
+More features are under construction and will be updated every week.  
 
 Potential users are academicians, researchers and, of course, fellow software engineers. 
 
